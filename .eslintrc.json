@@ -60,7 +60,7 @@
       "rules": {
         "no-restricted-imports": ["error", {
           "patterns": [{
-            "group": ["@angular/*"],
+            "group": ["*/core"],
             "message": "Foo"
           }]
         }]
